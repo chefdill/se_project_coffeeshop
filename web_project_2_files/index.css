@@ -40,6 +40,11 @@
 }
 
 .nav__links {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   list-style: none;
   padding-left: 0;
   margin-top: 8px;
@@ -52,6 +57,32 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
+}
+
+.header__title {
+  font-family: Noto Serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.header__under {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.header__description {
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
 }
 
 .header__address {
@@ -76,8 +107,8 @@
   height: 646px;
   z-index: 1;
   position: relative;
-  top: 124px;
-  right: 5px;
+  left: 720px;
+  bottom: 450px;
 }
 
 .nav__link:hover {
