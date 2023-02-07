@@ -26,8 +26,9 @@
 }
 
 .nav {
+  width: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -118,13 +119,17 @@
 }
 
 .header_image {
-  width: 568px;
-  height: 646px;
-  z-index: 1;
-  position: relative;
+  z-index: 0;
+  position: absolute;
+  width: 646px;
+  height: 568px;
+  top: 124px;
+  right: 5px;
+}
 
-  left: 720px;
-  bottom: 450px;
+.menu_background {
+  size: cover;
+  background-color: #0a2750;
 }
 
 .nav__link:hover {
