@@ -6,9 +6,9 @@
     <meta name="description" content="Practicums best coffee" />
     <meta name="author" content="Dillon Sareerat" />
     <meta name="keywords" content="html, css, javascript" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,31 +47,61 @@
         <img
           src="./images/inside_coffee_shop.png"
           alt="coffee place"
-          class="header_image"
+          class="header__image"
         />
         <div class="header__footer">
-          <p>
-            Hours: Monday – Friday (10:00 – 19:00) Saturday – Sunday (11:00 –
-            18:00)
-          </p>
-          <p class="header__address">
-            200 Success Avenue, The Town of Practicum
-          </p>
+          <div class="header__paragraphs">
+            <p class="paragraph-1">Hours:</p>
+            <p class="paragraph-2">Monday – Friday (10:00 – 19:00)</p>
+            <p class="paragraph-3">Saturday – Sunday (11:00 – 18:00)</p>
+          </div>
+          <p class="paragraph-4">200 Success Avenue, The Town of Practicum</p>
         </div>
       </header>
-      <menu>
+      <menu class="content">
         <img src="./images/background_menu.svg" class="menu_background" />
-        <title>Menu</title>
-        We brew coffee from locally roasted, Fairtrade certified beans and use
-        biodegradable cups. All teas from our collection are $2/cup. Filter
-        Regular (12 oz) $1 Large (16 oz) $1.25 XL (20 oz) $1.5 Party-size (24
-        oz, decaf) $1.75 Iced Coffee (16 oz) $1.25 Espresso Macchiato $2.25
-        Cortado $2.5 Mocha $3 Sunrise in the Bay Area (decaf) $10 Baked Goods
-        Almond Croissant $2 Banana Bread $1.75 Key Lime Pie $3 Blue Velvet Cake
-        $3.75 Web Cookie $2 Fresh Bug’uette $0.25
+        <h2 class="menu__title">Menu</h2>
+
+        <p class="menu__subtitle">
+          We brew coffee from locally roasted, Fairtrade certified beans and use
+          biodegradable cups. All teas from our collection are $2/cup.
+        </p>
+
+        <ul class="menu__card">
+          <li class="cards">
+            <div class="list-divider">
+              <p class="card__title">Filter</p>
+              Regular (12 oz) $1 Large (16 oz) $1.25 XL (20 oz) $1.5 Party-size
+              (24 oz, decaf) $1.75 Iced Coffee (16 oz) $1.25
+            </div>
+          </li>
+          <li class="menu__card">
+            <div class="list-divider">
+              <p class="card__title">Espresso</p>
+              Macchiato $2.25 Cortado $2.5 Mocha $3 Sunrise in the Bay Area
+              (decaf) $10
+            </div>
+          </li>
+          <li class="menu__card">
+            <div class="list-divider">
+              <p class="card__title">Baked Goods</p>
+              Almond Croissant $2 Banana Bread $1.75 Key Lime Pie $3 Blue Velvet
+              Cake $3.75 Web Cookie $2 Fresh Bug’uette $0.25
+            </div>
+          </li>
+        </ul>
       </menu>
-      <recipes></recipes>
-      <reservation></reservation>
+
+      <recipes
+        >Recipes Check out some recipes we've collected for your home-brewing
+        convenience: Aeropress recipe ~5 min French press recipe ~15
+        min</recipes
+      >
+      <reservation>
+        Book a table Name * Number of guests * Date & time * Your email * Book a
+        table I agree with the terms of use *Placeholders* Name Surname 1-8
+        email@email.com
+      </reservation>
       <about></about>
       <footer></footer>
     </div>
