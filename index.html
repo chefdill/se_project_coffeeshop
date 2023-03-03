@@ -10,7 +10,7 @@
     />
     <meta name="keywords" content="coffee, coffeeshop, practicum, library" />
     <title>Practicum Coffee Shop</title>
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./page/index.css" />
     <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -202,10 +202,10 @@
                 placeholder="email@email.com"
               />
               <button type="submit" class="form__button">Book a table</button>
-              <label for="terms" class="form__label form__button_type_checkbox">
+              <label for="terms" class="form__label form__label_type-checkbox">
                 <input
                   type="checkbox"
-                  class="form__checkbox form__button_type_checkbox"
+                  class="form__checkbox"
                   name="I agree with the terms of use"
                   id="terms"
                 />
@@ -242,8 +242,8 @@
             alt="practicum logo"
           />
 
-          <h3 class="footer__social-heading">
-            Social media
+          <div class="footer__social-heading">
+            <h3>Social media</h3>
             <ul class="footer__list">
               <li class="footer__list-item">
                 <a class="footer__social-link" href="#">
@@ -264,7 +264,7 @@
                 >
               </li>
             </ul>
-          </h3>
+          </div>
         </div>
         <p class="footer__copyright">© 2023 Dillon Sareerat</p>
       </footer>
